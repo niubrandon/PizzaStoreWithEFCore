@@ -33,3 +33,7 @@
 /Users/brandonniu/projects/PizzaStoreWithEF/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
 /Users/brandonniu/projects/PizzaStoreWithEF/bin/Debug/net6.0/Npgsql.dll
 /Users/brandonniu/projects/PizzaStoreWithEF/bin/Debug/net6.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+/Users/brandonniu/projects/PizzaStoreWithEF/bin/Debug/net6.0/pizza-web/db.json
+/Users/brandonniu/projects/PizzaStoreWithEF/bin/Debug/net6.0/pizza-web/package-lock.json
+/Users/brandonniu/projects/PizzaStoreWithEF/bin/Debug/net6.0/pizza-web/package.json
+/Users/brandonniu/projects/PizzaStoreWithEF/bin/Debug/net6.0/pizza-web/public/manifest.json
