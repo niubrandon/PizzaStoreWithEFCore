@@ -28,3 +28,8 @@
 /Users/brandonniu/projects/PizzaStoreWithEF/obj/Debug/net6.0/ref/PizzaStoreWithEF.dll
 /Users/brandonniu/projects/PizzaStoreWithEF/obj/Debug/net6.0/PizzaStoreWithEF.pdb
 /Users/brandonniu/projects/PizzaStoreWithEF/obj/Debug/net6.0/PizzaStoreWithEF.genruntimeconfig.cache
+/Users/brandonniu/projects/PizzaStoreWithEF/bin/Debug/net6.0/Humanizer.dll
+/Users/brandonniu/projects/PizzaStoreWithEF/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/brandonniu/projects/PizzaStoreWithEF/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/brandonniu/projects/PizzaStoreWithEF/bin/Debug/net6.0/Npgsql.dll
+/Users/brandonniu/projects/PizzaStoreWithEF/bin/Debug/net6.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll

@@ -3,9 +3,18 @@ using Microsoft.EntityFrameworkCore;
 using PizzaStoreWithEF.Models;
 
 var builder = WebApplication.CreateBuilder(args);
+
+//db connection string
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 //swagger and openApi middleware
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddDbContext<PizzaDb>(options => options.UseInMemoryDatabase("items"));
+
+// imMemory db
+// builder.Services.AddDbContext<PizzaDb>(options => options.UseInMemoryDatabase("items"));
+// use PostgreSQL
+builder.Services.AddDbContext<PizzaDb>(options =>
+    options.UseNpgsql(connectionString));
+
 builder.Services.AddSwaggerGen(c =>
 {
      c.SwaggerDoc("v1", new OpenApiInfo {

@@ -8,7 +8,7 @@ namespace PizzaStoreWithEF.Models
     public string? Name { get; set; }
     public string? Description { get; set; }
   }
-//set up in-memory database
+//useDbContext
   class PizzaDb : DbContext
   {
     public PizzaDb(DbContextOptions options) : base(options) { }
